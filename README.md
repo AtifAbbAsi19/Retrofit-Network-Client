@@ -2,7 +2,7 @@
 Retrofit using Builder Pattren
 
 
- val retrofitNetwork = RetrofitNetworkClient.Builder().baseURL(BuildConfig.END_POINT).build()
+     val retrofitNetwork = RetrofitNetworkClient.Builder().baseURL(BuildConfig.END_POINT).build()
 
       retrofitNetwork.genericNetworkService
                     .getEndPoint(exampleRequest)
