@@ -1,5 +1,5 @@
 # Retrofit-Network-Client
-Retrofit using Builder Pattren
+Retrofit using Builder Pattren with Rx2 Android
 
 
      val retrofitNetwork = RetrofitNetworkClient.Builder().baseURL(BuildConfig.END_POINT).build()
